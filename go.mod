@@ -1,8 +1,6 @@
 module git.atonline.com/vp.net/vpnetd-sgx
 
-go 1.21
-
-toolchain go1.23.5
+go 1.25.0
 
 require (
 	github.com/edgelesssys/ego v1.7.0
@@ -10,12 +8,12 @@ require (
 )
 
 require (
-	golang.org/x/net v0.21.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 )
 
 require (
-	github.com/go-jose/go-jose/v4 v4.0.4 // indirect
-	golang.org/x/crypto v0.32.0 // Update to a recent version
+	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
+	golang.org/x/crypto v0.51.0 // Update to a recent version
 )
